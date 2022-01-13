@@ -1,0 +1,16 @@
+@import './intralix.scss';
+.bg_intralix_header{
+    background-color: $corporate_primary_color;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.cardComponent{
+    //--tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+    align-items: center;
+    border-radius: .375rem;
+    text-align: center;
+}

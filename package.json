@@ -1,0 +1,51 @@
+{
+  "name": "paf",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/style": "^0.8.0",
+    "@emotion/styled": "^11.6.0",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/lab": "^4.0.0-alpha.60",
+    "@material-ui/pickers": "^3.3.10",
+    "@mui/icons-material": "^5.2.4",
+    "@mui/material": "^5.2.4",
+    "@mui/styles": "^5.2.3",
+    "@mui/x-data-grid": "^5.2.1",
+    "@react-google-maps/api": "^2.7.0",
+    "axios": "^0.24.0",
+    "filepond": "^4.30.3",
+    "final-form": "^4.20.6",
+    "final-form-material-ui": "^0.3.0",
+    "geolib": "^3.3.3",
+    "material-ui-color": "^1.2.0",
+    "mui-rff": "^5.0.0",
+    "next": "12.0.7",
+    "prop-types": "^15.7.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-filepond": "^7.1.1",
+    "react-final-form": "^6.5.7",
+    "react-icons": "^4.3.1",
+    "react-redux": "^7.2.6",
+    "react-swipeable-views": "^0.14.0",
+    "redux": "^4.1.2",
+    "redux-thunk": "^2.4.1",
+    "sweetalert2": "^11.3.0",
+    "wkt": "^0.1.1"
+  },
+  "devDependencies": {
+    "@material-ui/data-grid": "^4.0.0-alpha.37",
+    "eslint": "8.4.1",
+    "eslint-config-next": "12.0.7",
+    "redux-devtools": "^3.7.0",
+    "sass": "^1.45.0",
+    "ticks-to-date": "^1.0.3"
+  }
+}

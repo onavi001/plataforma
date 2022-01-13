@@ -1,0 +1,13 @@
+@import './intralix.scss';
+.unitHeaderTravel{
+    padding: 2px !important;
+    text-align: -webkit-center;
+    background:$corporate_primary_color;
+    color:#FFFFFF;
+}
+.unitBodyTravel{
+    padding: 0px !important;
+    th,td{
+        padding: 0px 0 0 15px;
+    }
+}

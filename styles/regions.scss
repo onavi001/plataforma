@@ -1,0 +1,22 @@
+.titleRegions{
+    font-size: 20px;
+    div{
+        div{
+            h1{
+                float: none !important;
+            }
+        }
+    }
+}
+
+.tableResponsiveRegions{
+    .MuiDataGrid-main{
+        height:auto !important;
+        max-height: calc(100vh - 220px);
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .MuiDataGrid-window{
+        overflow-y: auto !important;
+    }
+}

@@ -1,0 +1,197 @@
+@import './intralix.scss';
+.mapComponent{
+    padding: 0px !important;
+    border-width: 0px !important;
+    border-radius: 0px !important;
+    div{
+        padding: 0px !important;
+    }
+}
+.mapDiv{
+    padding: 0 0 0 0 !important;
+    //width: 70% !important;
+    //width: calc(100vw - 80px) !important;
+    //position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    height: calc(100vh - 120px);
+}
+.App-map {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    //border-radius: 1rem;
+    //box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1), 0 0  0 0 rgb(255,255,255), 0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+.infoGrid{
+    position: relative;
+    bottom: 0;
+    //max-height: 90%;
+    //height: 100%;
+    //height: 78vh;
+    //height: 82%;
+    max-height: calc(100vh - 190px);
+    overflow: auto;
+}
+.infoGrid::-webkit-scrollbar {
+    width: 0.8em;
+}
+.infoGrid::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(21, 55, 91, 0.3);
+    border-radius: 10px;
+}
+.infoGrid::-webkit-scrollbar-thumb {
+    background-color: $corporate_primary_color;
+    border-radius: 10px;
+}
+
+.autocompleteError{
+    label{
+        color:#f44336 !important;
+    }
+}
+.regionZoneError{
+    color: #f44336;
+    margin: 0;
+    font-size: 0.75rem;
+    margin-top: 3px;
+    text-align: left;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.66;
+    letter-spacing: 0.03333em;
+}
+.buttonCard{
+    float: left;
+    margin-top: 8px;
+    display:'block';
+}
+.marker {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 18px;
+    height: 18px;
+    background-color: #000;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    user-select: none;
+    transform: translate(-50%, -50%);
+    &:hover {
+        z-index: 1;
+    }
+    img{
+        display: none;
+    }
+}
+.unitStatusBlue{
+    padding: 2px !important;
+    text-align: -webkit-center;
+    background:#305496;
+    color:#FFFFFF;
+}
+.unitStatusGreen{
+    padding: 2px !important;
+    text-align: -webkit-center;
+    background:green;
+    color:#FFFFFF;
+}
+.unitStatusOrange{
+    padding: 2px !important;
+    text-align: -webkit-center;
+    background:orange;
+    color:#FFFFFF;
+}
+.unitStatusRed{
+    padding: 2px !important;
+    text-align: -webkit-center;
+    background:red;
+    color:#FFFFFF;
+}
+.gridZone{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+.gridZoneItem {
+    flex: auto;
+}
+.muiChip-device{
+    background-color: $corporate_primary_color !important;
+    color: #ffffff !important;
+    height: 25px !important;
+}
+//@at-root
+.app-container {
+	height: 300px;
+	width: 300px;
+	background: #2b5870;
+	border-radius: 20px;
+	//box-shadow: 10px 10px 38px 0px rgba(0, 0, 0, 0.75);
+}
+
+.temperature-display-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.temperature-display {
+	display: flex;
+	border-radius: 50%;
+	color: #ffffff;
+	height: 220px;
+	width: 220px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	font-size: 48px;
+	border: 3px #ffffff solid;
+	transition: background 0.5s;
+}
+.neutral {
+	background: rgb(184, 184, 184);
+}
+
+.cold {
+	background: #035aa6;
+}
+
+.hot {
+	background: #ff5200;
+}
+
+.submitDisable{
+    color: rgba(0, 0, 0, 0.26) !important;
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, 0.12) !important;
+}
+.textError{
+    color:#f44336 !important;
+    label{
+        color:#f44336 !important;
+    }
+}
+.cardHelp{
+    position:fixed;
+    right:10px;
+    top:135px;
+}
+.cardHeader{
+    background:$corporate_primary_color;
+    color:#FFF;
+    padding: 4px 15px 4px 10px !important;
+    div{
+        span{
+            font-size: 0.8rem !important;
+        }
+    }
+}

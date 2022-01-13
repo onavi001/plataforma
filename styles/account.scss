@@ -1,0 +1,114 @@
+@import './intralix.scss';
+.bodyAccountInformationComponent{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+.gridAccountsCreateVerticalComponent{
+    //height: 450px !important;
+}
+
+.gridAccountsCreateServices{
+    height: 350px !important;
+}
+.MuiDataGrid-columnHeaderTitle{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+.tooltip {
+    display: inline-block;
+    padding: 0 5px 0 5px;
+    position: absolute;
+  }
+.tooltip .tooltiptext {
+  visibility: hidden;
+  height: 30px;
+  padding: 0 5px 0 5px;
+  background-color: $icon_gray_color;
+  color: #000000;
+  text-align: center;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 99;
+  top: 27px;
+  right: 50%;
+  opacity: 0.9;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.swal2-actions button{
+    margin: 0 30px 0 30px !important;
+}
+
+.bodyAccountUserComponent{
+  padding: 0;
+}
+.bodyAccountRolesComponent{
+  padding: 0;
+  height: 350px !important;
+}
+
+.PrivateTabIndicator-colorSecondary-4{
+  background-color: $corporate_primary_color !important;
+}
+.PrivateTabIndicator-colorPrimary-3{
+  background-color: $corporate_primary_color !important;
+}
+
+.muiChip-success{
+  background-color: #2e7d32 !important;
+  color: #ffffff !important;
+  height: 25px !important;
+}
+.muiChip-error{
+  background-color: #d32f2f !important;
+  color: #ffffff !important;
+  height: 25px !important;
+}
+.overMouse{
+      height: 30px;
+      background-color: #c2c7d0;
+      color: #000000;
+      opacity: 0.9;
+}
+.accountEditComponent{
+  max-width: 800px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 0 !important;
+}
+
+.MuiTabs-flexContainerVertical{
+  button{
+    color: #000 !important;
+    background-color: white !important;
+  }
+}
+.makeStyles-root-1{
+  button{
+    padding: 0 10px 0 10px;
+    font-size: 0.9rem !important;
+  }
+}
+.MuiTabs-root{
+  button{
+    font-size: 1rem !important;
+  }
+  span{
+    font-size: 1rem !important;
+    input{
+      font-size: 1rem !important;
+    }
+  }
+}
+.TableRoles{
+  .TableAccountsGet{
+      flex-wrap: initial;
+  }
+}

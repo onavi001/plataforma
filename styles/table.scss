@@ -1,0 +1,97 @@
+@import './intralix.scss';
+.MuiDataGrid-root{
+    border: 0 !important;
+}
+.MuiDataGrid-root .MuiDataGrid-columnHeaderTitle {
+    font-size: 0.8rem;
+}
+.MuiDataGrid-root .MuiDataGrid-cell--textLeft {
+    font-size: 0.8rem;
+}
+.MuiDataGrid-root .MuiDataGrid-columnHeaders {
+    background-color: $corporate_primary_color;
+    color: $white_color;
+    min-height: 40px !important;
+    max-height: 40px !important;
+    line-height: 40px !important;
+    margin-top: 15px !important;
+}
+.MuiDataGrid-main{
+    margin-top: -15px;
+}
+.MuiDataGrid-root .MuiDataGrid-columnHeaderTitle {
+    font-weight: bold !important;
+}
+
+.css-1pe4mpk-MuiButtonBase-root-MuiIconButton-root{
+    color: white !important;
+}
+.MuiDataGrid-root .MuiDataGrid-virtualScroller {
+    top: 40px !important;
+}
+/**/
+.MuiDataGrid-virtualScroller::-webkit-scrollbar {
+    width: 0.8em;
+}
+.MuiDataGrid-virtualScroller::-webkit-scrollbar-track {
+    //box-shadow: inset 0 0 6px rgba(21, 55, 91, 0.3);
+    //border-radius: 10px;
+}
+.MuiDataGrid-virtualScroller::-webkit-scrollbar-thumb {
+    background-color: $corporate_primary_color;
+    //border-radius: 10px;
+}
+
+//
+.MuiIconButton-sizeSmall {
+    color: white !important;
+    //display: none !important;
+}
+.MuiDataGrid-root .MuiDataGrid-menuIcon {
+    display: none !important;
+}
+.MuiInputBase-root{
+    line-height: 25px !important;
+}
+
+.MuiButtonGroup-contained {
+    box-shadow: none !important;
+}
+.MuiButtonGroup-groupedContainedHorizontal:not(:last-child){
+    border-right: 0 !important;
+}
+.MuiBox-root {
+    padding: 0px !important;
+}
+
+.tableResponsiveIA{
+    .MuiDataGrid-main{
+        height:auto !important;
+        max-height: calc(100vh - 300px);
+        overflow: overlay !important
+    }
+    .MuiDataGrid-window{
+        overflow-y: auto !important;
+    }
+}
+
+.tableResponsiveUR{
+    .MuiDataGrid-main{
+        height:auto !important;
+        max-height: calc(100vh - 340px);
+        overflow: overlay !important
+    }
+    .MuiDataGrid-window{
+        overflow-y: auto !important;
+    }
+}
+.DataGridTableIntralix {
+    button{
+        color: #3f51b5 !important;
+        background-color: initial !important;
+        font-size: 0.9rem;
+    }
+}
+.makeStyles-root-1{
+    flex-wrap: initial;
+}

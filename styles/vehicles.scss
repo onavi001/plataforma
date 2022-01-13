@@ -1,0 +1,24 @@
+.tableResponsiveVehicles{
+    margin-top: 0px;
+    .css-jz7yqw-MuiDataGrid-virtualScrollerContent{
+        max-height: calc(100vh - 220px);
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .MuiDataGrid-window{
+        overflow-y: auto !important;
+    }
+}
+.vehicleChip{
+    .MuiChip-root {
+        background-color: #15375b !important;
+        color: #ffffff !important;
+    }
+}
+.bodyVehiclesCreateComponent{
+    max-width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    //padding: 0 !important;
+}

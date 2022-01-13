@@ -1,0 +1,88 @@
+@import './intralix.scss';
+.MuiChip-root{
+    //height: 0 !important;
+}
+.MuiAutocomplete-tag{
+    margin : 3px 0 3px 0 !important;
+}
+.MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon .MuiAutocomplete-inputRoot {
+    padding-right: 0px !important;
+}
+.MuiAutocomplete-hasPopupIcon .MuiAutocomplete-inputRoot, .MuiAutocomplete-hasClearIcon .MuiAutocomplete-inputRoot {
+    padding-right: 0px !important;
+}
+.MuiAutocomplete-inputRoot .MuiAutocomplete-input {
+    min-height: 34px !important;
+}
+.MuiAutocomplete-tag {
+    height: 20px !important;
+}
+#checkboxes-tags-demo{
+    .MuiChip-root {
+        background-color: #15375b !important;
+        color: #ffffff !important;
+    }
+}
+.MuiChip-deleteIcon {
+    color: rgba(248, 81, 73, 0.8) !important;
+    margin: 0 !important;
+}
+.MuiAutocomplete-inputRoot {
+    height: 35px !important;
+    max-height: 35px !important;
+}
+
+.deviceFormComponent {
+    width: 100%;
+    padding: 2.5rem;
+    border-radius: 0.375rem;
+}
+.basicFormComponent{
+    text-align: -webkit-center !important;
+}
+.InformationComponentDevices{
+    min-width: auto !important;
+}
+.MuiAutocomplete-tag {
+    max-width: 135px !important;
+}
+
+.tableResponsiveDevices{
+    margin-top: 0px;
+    .css-jz7yqw-MuiDataGrid-virtualScrollerContent{
+        max-height: calc(100vh - 220px);
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .MuiDataGrid-main{
+        height:auto !important;
+        max-height: calc(100vh - 220px);
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .MuiDataGrid-window{
+        overflow-y: auto !important;
+        //overflow-x: hidden !important;
+    }
+    .MuiDataGrid-renderingZone{
+        //transform:none !important;
+    }
+}
+.deviceChip{
+    .MuiChip-root {
+        background-color: #15375b !important;
+        color: #ffffff !important;
+        border-radius: 24px;
+    }
+    .MuiIconButton-root{
+        padding: 0;
+    }
+}
+
+.bodyDeviceCreateComponent{
+    max-width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    //padding: 0 !important;
+}

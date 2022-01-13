@@ -1,0 +1,21 @@
+.MuiSelect-nativeInput::-ms-expand {
+    display: none !important;
+}
+.selectRules{
+    font-weight: bold !important;
+    svg{
+        display: none;
+    }
+}
+
+.tableResponsiveRules{
+    .css-jz7yqw-MuiDataGrid-virtualScrollerContent{
+        //height:auto !important;
+        max-height: calc(100vh - 220px);
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .MuiDataGrid-window{
+        //overflow-y: auto !important;
+    }
+}
